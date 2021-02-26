@@ -1,0 +1,3 @@
+include ':Java_Programs'
+include ':app'
+rootProject.name = "BasicPractice"
