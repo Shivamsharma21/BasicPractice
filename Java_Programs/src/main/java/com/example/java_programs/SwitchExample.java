@@ -37,11 +37,23 @@ public class SwitchExample {
                     e = q-w;
                     System.out.println("Your Answer is ->>"+ e);
                     break;
+
             case 3 :
-                System.out.println("Enter The Numbers You Want to Multiply");
+                System.out.println("Enter The number you want to Multiply");
+                int y =0,t=0,l=0;
+                y =sc.nextInt();
+                t =sc.nextInt();
+                l =y*t;
+                System.out.println("Answer is ->>"+l);
                 break;
+
             case 4:
-                System.out.println("Mul");
+                System.out.println("Enter the numbers you want to Divide");
+                int h=0,k=0,n=0;
+                h = sc.nextInt();
+                k = sc.nextInt();
+                n = h/k;
+                System.out.println("Answer is ->>"+n);
                 break;
 
             default:
