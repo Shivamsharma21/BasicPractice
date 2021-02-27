@@ -25,7 +25,15 @@ public class HashMap {
         for (String s : keys){
             System.out.println(s +" : "+users.get(s));
         }
-        
+
+   //   Another way to finding the Key and value  in the hashmap //
+
+        Set<Map.Entry<String,Integer>>entryMap = users.entrySet();
+            for (Map.Entry<String,Integer>e: entryMap){
+                System.out.println(e.getKey() + ":"+ e.getValue());
+
+            }
     }
+
 
 }
