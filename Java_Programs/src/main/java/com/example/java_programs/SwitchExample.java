@@ -10,6 +10,10 @@ public class SwitchExample {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("1 Addition");
+        System.out.println("2 Subtraction");
+        System.out.println("3 Multiplication");
+
         System.out.println("Enter the Operation You want to do ");
 
         operation   = sc.nextInt();
@@ -17,18 +21,29 @@ public class SwitchExample {
         switch (operation){
 
             case 1 :
-                System.out.println("1 Add");
+                System.out.println("Enter The number you want to Addition");
+                int a=0,b=0,c=0;
+                a = sc.nextInt();
+                b = sc.nextInt();
+                c = a+b;
+                System.out.println("Answer is ->>"+c);
                 break;
+
             case 2 :
-                System.out.println("2 Sub");
-                break;
+                    System.out.println("Enter The number you want to Subtraction");
+                    int q =0,w=0,e=0;
+                    q =sc.nextInt();
+                    w =sc.nextInt();
+                    e = q-w;
+                    System.out.println("Your Answer is ->>"+ e);
+                    break;
             case 3 :
-                System.out.println("Minus");
+                System.out.println("Enter The Numbers You Want to Multiply");
                 break;
             case 4:
                 System.out.println("Mul");
                 break;
-                
+
             default:
                 System.out.println("Enter a valid choice");
         }
