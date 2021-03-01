@@ -43,6 +43,9 @@ public class WrapperClassExample {
         Integer integer1 = Integer.parseInt(k);
 
         System.out.println(integer1);
+
+        System.out.println(Integer.toHexString(10));
+        System.out.println(Integer.toHexString(15));
     }
 
 }
