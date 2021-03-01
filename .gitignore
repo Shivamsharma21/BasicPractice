@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+XVC
+alexa.rc
+base.rc
